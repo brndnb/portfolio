@@ -6,23 +6,31 @@
 }
 
 
-
+/* NAV SECTION */
 nav {
-    background-color: blue;
+   display: flex;
+   justify-content: space-between;
 }
 
+
+/* HEADER SECTION */
 header {
     background-color: green;
 }
 
+
+/* MAIN SECTION */
 main {
     background-color: yellow;
 }
 
+
+/* CONTACT FORM SECTION */
 .contact-form {
     background-color: pink;
 }
 
+/* FOOTER SECTION */
 footer {
     background-color: aqua;
 }
