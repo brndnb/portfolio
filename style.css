@@ -1,0 +1,28 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+
+nav {
+    background-color: blue;
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    background-color: yellow;
+}
+
+.contact-form {
+    background-color: pink;
+}
+
+footer {
+    background-color: aqua;
+}
