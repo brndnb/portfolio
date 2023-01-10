@@ -20,8 +20,20 @@ header {
 
 
 /* MAIN SECTION */
-main {
-    background-color: yellow;
+
+.project-box {
+    border: 1px black solid;
+    height: 100px;
+    width: 200px;
+}
+
+article {
+    display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 
