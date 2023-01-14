@@ -38,8 +38,14 @@ article {
 
 
 /* CONTACT FORM SECTION */
-.contact-form {
-    background-color: pink;
+.contact-box {
+    display: flex;
+}
+
+.contact-pic {
+    height: 300px;
+    width: 200px;
+    border: solid 1px black;
 }
 
 /* FOOTER SECTION */
