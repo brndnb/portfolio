@@ -50,5 +50,6 @@ article {
 
 /* FOOTER SECTION */
 footer {
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
 }
