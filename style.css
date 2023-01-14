@@ -2,20 +2,46 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    font-family: 'Inter', sans-serif; 
 }
 
+.btn {
+    border: solid 1px black;
+    padding: 8px 20px 8px 20px;
+    background-color: black;
+}
 
 /* NAV SECTION */
 nav {
    display: flex;
    justify-content: space-between;
+   margin: 15px;
+   
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.mid-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.right-nav a {
+   color: white;
+}
+
 
 
 /* HEADER SECTION */
 header {
     width: 75%;
+    
 }
 
 
