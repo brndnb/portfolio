@@ -24,7 +24,7 @@
         </div>
     </nav>
     <header>
-        <p class="hero-text">Hello World! I'm Brandon,<br>
+        <p class="h1">Hello World! I'm Brandon,<br>
         a web developer with a knack for<br> responsive design.</p>
         <div class="header-btn">
             <a class="btn">See my projects</a>
@@ -32,12 +32,12 @@
         </div> 
     </header>
     <main>
-     <p class="main-title">Selected Work</p>
+     <p class="h1 main-title">Selected Work</p>
      <article>
         <div class="project-box"></div>
         <div class="project-description">
          <h2 class="project-name">Project name</h2>
-         <p class="project-p">Short description of the project highlighting the features and your contribution</p>
+         <p class="project-p grey-p">Short description of the project highlighting the features and your contribution</p>
          <a href="#">View project</a>
         </div>
      </article>
@@ -45,7 +45,7 @@
         <div class="project-box"></div>
         <div class="project-description">
             <h2 class="project-name">Project name</h2>
-            <p class="project-p">Short description of the project highlighting the features and your contribution</p>
+            <p class="project-p grey-p">Short description of the project highlighting the features and your contribution</p>
             <a href="#">View project</a>
         </div>
      </article>
@@ -53,7 +53,7 @@
         <div class="project-box"></div>
         <div class="project-description">
             <h2 class="project-name">Project name</h2>
-            <p class="project-p">Short description of the project highlighting the features and your contribution</p>
+            <p class="project-p grey-p">Short description of the project highlighting the features and your contribution</p>
             <a href="#">View project</a>
         </div>
      </article>
@@ -61,22 +61,28 @@
         <div class="project-box"></div>
         <div class="project-description reversed">
             <h2 class="project-name">Project name</h2>
-            <p class="project-p">Short description of the project highlighting the features and your contribution</p>
+            <p class="project-p grey-p">Short description of the project highlighting the features and your contribution</p>
             <a href="#">View project</a>
         </div>
      </article>
      <div class="contact-box">
         <div class="contact-pic"></div>
-        <div>
+        <div class="form-container">
             <div>
-            <h1>Headline</h1>
-            <p>some short sub text here</p>
+            <p class="h1 form-headline">Ready to reach out?</h1>
+            <p class="form-p grey-p">If you have a project in mind or if you want to simply reach out, fill up the form below to connect with me.</p>
             </div>
             <form>
-                <p>Your name</p><input type="text">
-                <p>Email address</p><input type="text">
-                <p>Message</p><input type="text"><br>
-                <button>Submit</button>
+                <div class="form-name-email-box">
+                 <div>
+                    <p class="grey-p input-label">Your name</p><input type="text" class="input-small">
+                 </div>
+                 <div>
+                    <p class="grey-p input-label">Email address</p><input type="email" class="input-small">
+                 </div>
+                </div>
+                <p class="grey-p input-label">Message</p><input type="text" class="input-large message-box"><br><br>
+                <a class="btn">Submit</a>
             </form>
         </div>
      </div>
