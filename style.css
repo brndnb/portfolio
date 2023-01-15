@@ -26,6 +26,7 @@ nav {
    display: flex;
    justify-content: space-between;
    margin: 15px;
+   margin: 20px 40px 0 40px;
    
 }
 
@@ -60,6 +61,7 @@ header {
 
 .header-btn a {
     color: white;
+    text-decoration: none;
 }
 
 .header-btn .btn-white {
@@ -164,9 +166,23 @@ article {
 
 form a {
     color: white;
+    text-decoration: none;
 }
 /* FOOTER SECTION */
 footer {
     display: flex;
     justify-content: space-between;
+    margin: 20px 40px 10px 40px;
 }
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.social-media a {
+    color: black;
+    
+}
+
