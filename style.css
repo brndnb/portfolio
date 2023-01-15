@@ -49,7 +49,7 @@ header {
 }
 
 .header-btn {
-    margin-top: 30px;
+    margin-top: 40px;
    
 }
 
@@ -68,10 +68,35 @@ header {
 
 /* MAIN SECTION */
 
+main {
+    margin: 30px;
+}
+
+.main-title {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+
 .project-box {
-    border: 1px black solid;
-    height: 100px;
-    width: 200px;
+    
+    height: 400px;
+    width: 600px;
+    background-color: #ECECEC;
+    margin-bottom: 30px;
+}
+
+.project-description {
+    margin: 0 30px;
+}
+
+.project-name {
+    margin-bottom: 20px;
+}
+
+.project-p {
+    margin-bottom: 20px;
+    opacity: 60%;
 }
 
 article {
